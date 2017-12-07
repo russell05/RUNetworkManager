@@ -1,0 +1,24 @@
+//
+//  RuNetWorkManager-prefix.pch
+//  RUNetWorkManager
+//
+//  Created by russ on 2017/11/24.
+//  Copyright © 2017年 russell. All rights reserved.
+//
+
+#ifndef RuNetWorkManager_prefix_pch
+#define RuNetWorkManager_prefix_pch
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "AFNetworking.h"
+#import "RUCommonDefine.h"
+#import "RUFoundationExtention.h"
+#import "RUService.h"
+#import "RUAPIDefine.h"
+
+#endif
+
+#endif /* RuNetWorkManager_prefix_pch */
